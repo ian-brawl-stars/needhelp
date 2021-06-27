@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix=commands.when_mentioned_or(','), description="", help_command=None)
+bot = commands.Bot(command_prefix=commands.when_mentioned_or('!'), description="", help_command=None)
 
 @bot.command()
 async def help(ctx):
